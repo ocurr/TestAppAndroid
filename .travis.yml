@@ -2,11 +2,12 @@ language: android
 jdk: oraclejdk8
 android:
     components:
+        - tools
+        - platform-tools
+
         - build-tools-25.0.0
+
         - android-25
-    licenses:
-        - 'android-sdk-license-.+'
-        - 'android-build-tools-license-.+'
 
 script:
     - ./gradlew build test
