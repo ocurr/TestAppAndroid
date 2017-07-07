@@ -6,6 +6,7 @@ android:
         - android-25
     licenses:
         - 'android-sdk-license-.+'
+        - 'android-build-tools-license-.+'
 
 script:
     - ./gradlew build test
