@@ -4,6 +4,8 @@ android:
     components:
         - build-tools-26.0.0
         - android-25
+    licenses:
+        - 'android-sdk-license-.+'
 
 script:
     - ./gradlew build test
